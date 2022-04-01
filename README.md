@@ -5,13 +5,13 @@
 The `concat()` method is used to join two array and return only one
 
 ```
-const firstFiveNumbers = [1,2,3,4,5]
+const firstFiveNumbers = [1, 2, 3, 4, 5];
 
-const secondFiveNumbers = [6,7,8,9,10]
+const secondFiveNumbers = [6, 7, 8, 9, 10];
 
-const fullTenNumbers = firstFiveNumbers.concat(secondFiveNumbers)
+const fullTenNumbers = firstFiveNumbers.concat(secondFiveNumbers);
 
-console.log(fullTenNumbers)
+console.log(fullTenNumbers);
 ///Will print:
 [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 ```
@@ -20,22 +20,38 @@ console.log(fullTenNumbers)
 
 The `indexOf()` method is used to identify the index of an element in an array
 
+```
+const numbersArray = [1, 2, 3, 4, 5];
+
+const indexOfTwo = numbersArray.indexOf(2);
+
+const indexOfFour = numbersArray.indexOf(4);
+
+console.log(indexOfTwo);
+///Will print:
+1
+
+console.log(indexOfFour);
+///Will print:
+3
+```
+
 * `includes()`:
 
 The `includes()` method is used to check if an array includes a specified element
 
 ```
-const numbersArray = [1,2,3,4,5]
+const numbersArray = [1, 2, 3, 4, 5];
 
-const includesTheNumberSeven = numbersArray.includes(7)
+const includesTheNumberSeven = numbersArray.includes(7);
 
-const includesTheNumberTwo = numbersArray.includes(2)
+const includesTheNumberTwo = numbersArray.includes(2);
 
-console.log(includesTheNumberSeven)
+console.log(includesTheNumberSeven);
 ///Will print:
 false
 
-console.log(includesTheNumberTwo)
+console.log(includesTheNumberTwo);
 ///Will print:
 true
 ```
