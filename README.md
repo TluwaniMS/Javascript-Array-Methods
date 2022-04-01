@@ -60,6 +60,22 @@ true
 
 The `join()` method is used to join all the elements in an array and return them as a single string
 
+```
+const numbersArray = [1, 2, 3, 4, 5];
+
+const joinedNumbersUsingDash = numbersArray.join("-");
+
+const joinedNumbersWithSpacing = numbersArray.join(" ");
+
+console.log(joinedNumbersUsingDash);
+///Will print:
+1-2-3-4-5
+
+console.log(joinedNumbersWithSpacing);
+///Will print:
+1 2 3 4 5
+```
+
 * `push()`:
 
 The `push()` method is used to add new elements to the end of an array
