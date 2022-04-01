@@ -12,8 +12,8 @@ const secondFiveNumbers = [6, 7, 8, 9, 10];
 const fullTenNumbers = firstFiveNumbers.concat(secondFiveNumbers);
 
 console.log(fullTenNumbers);
-///Will print:
-[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+/// Will print:
+/// [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 ```
 
 2. `indexOf()`:
@@ -28,12 +28,12 @@ const indexOfTwo = numbersArray.indexOf(2);
 const indexOfFour = numbersArray.indexOf(4);
 
 console.log(indexOfTwo);
-///Will print:
-1
+/// Will print:
+/// 1
 
 console.log(indexOfFour);
-///Will print:
-3
+/// Will print:
+/// 3
 ```
 
 3. `includes()`:
@@ -48,12 +48,12 @@ const includesTheNumberSeven = numbersArray.includes(7);
 const includesTheNumberTwo = numbersArray.includes(2);
 
 console.log(includesTheNumberSeven);
-///Will print:
-false
+/// Will print:
+/// false
 
 console.log(includesTheNumberTwo);
-///Will print:
-true
+/// Will print:
+/// true
 ```
 
 4. `join()`:
@@ -68,12 +68,12 @@ const joinedNumbersUsingDash = numbersArray.join("-");
 const joinedNumbersWithSpacing = numbersArray.join(" ");
 
 console.log(joinedNumbersUsingDash);
-///Will print:
-1-2-3-4-5
+/// Will print:
+/// 1-2-3-4-5
 
 console.log(joinedNumbersWithSpacing);
-///Will print:
-1 2 3 4 5
+/// Will print:
+/// 1 2 3 4 5
 ```
 
 5. `push()`:
@@ -88,8 +88,8 @@ numbersArray.push(6, 7, 8);
 numbersArray.push(9);
 
 console.log(numbersArray);
-///Will print:
-[1, 2, 3, 4, 5, 6, 7, 8, 9]
+/// Will print:
+/// [1, 2, 3, 4, 5, 6, 7, 8, 9]
 ```
 
 6. `splice()`:
@@ -112,7 +112,7 @@ const numbersArray = [1, 2, 3, 4, 5];
 numbersArray.splice(0, 1);
 
 console.log(numbersArray);
-///Will print:
-[ 2, 3, 4, 5 ]
+/// Will print:
+/// [ 2, 3, 4, 5 ]
 ```
 
